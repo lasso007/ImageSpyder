@@ -2,7 +2,9 @@
 
 依赖： PhantomJS和Selenium
 
-![examples](./examples.jpeg)
+![image](https://github.com/lasso007/ImageSpyder/blob/master/example.jpeg)
+
+
 功能：
 1. 系统使用这可以查看参数使用说明信息或提示信息；
 2. 具有缺省参数，系统使用者的需求不严格的情况下部分参数采用默认值，并且具有参数检查；
@@ -15,3 +17,4 @@
 
 ------
 （代码简单，功能和可靠性还行；有任何修改意见，欢迎提出！）
+![image](example.jpeg)
