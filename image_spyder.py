@@ -12,7 +12,7 @@ import threading
 import sys
 import subprocess
 import glob
-import Image
+#import Image
 import pdb
 parser = argparse.ArgumentParser()
 parser.add_argument('-s','--source',type=int, nargs='+',
@@ -113,7 +113,7 @@ def spider_baidu(term):
         for l in links:
             if l not in url_links:
                 url_links.append(l)
-	links_file = os.path.join(base_dir,term+'.txt')
+    links_file = os.path.join(base_dir,term+'.txt')
     with open(links_file,'wb') as f:
         f.write('\n'.join(url_links))
     thread_number = args.threads	# Begin downloading images
@@ -155,7 +155,7 @@ def spider_360(term):
         for l in links:
             if l not in url_links:
                 url_links.append(l)
-	links_file = os.path.join(base_dir,term+'.txt')
+    links_file = os.path.join(base_dir,term+'.txt')
     with open(links_file,'wb') as actor_links:
         actor_links.write('\n'.join(url_links))
     thread_number = args.threads	# Begin downloading images
@@ -208,7 +208,7 @@ def spider_bing(term):
             selectedIndex = selectedIndex+1
         page = driver.page_source.encode('utf-8')
         if len(page)<300:
-			break
+            break
         x = re.findall(r"json-data=\"(.+?)\"></span>",page)
         links = []
         if(len(x)>0):
@@ -221,7 +221,7 @@ def spider_bing(term):
         for l in links:
             if l not in url_links:
                 url_links.append(l)
-	links_file = os.path.join(base_dir,term+'.txt')
+    links_file = os.path.join(base_dir,term+'.txt')
     with open(links_file,'wb') as f:
         f.write('\n'.join(url_links))
     thread_number = args.threads	# Begin downloading images
@@ -252,7 +252,7 @@ if __name__=='__main__':
             keywords = f.read().split('\n')
     for k in args.keyword:
         keywords.append(k)
-    assert(len(keywords)>0) 
+    assert(len(keywords)>0)
     if 3 in args.source:
         from selenium import webdriver
     for k in keywords:
