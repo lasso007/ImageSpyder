@@ -1,0 +1,605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta name="robots" content="all" /><meta name="verify-v1" content="uCpG0aclC4EE3AjqkJceD2wE2jpzfXCZXFku92f2P2I=" /><meta name="copyright" content="xinmin.cn"><meta name="description" content="" /><meta name="keywords" content="" /><title>页面未找到 为民分忧 与民同乐</title><link rel="shortcut Icon" href="http://image.xinmin.cn/favicon.ico"><link rel="stylesheet" type="text/css" href="http://image.xinmin.cn/template/www.xinmin.cn/201310/css/common.css"/><link rel="stylesheet" type="text/css" href="http://image.xinmin.cn/template/www.xinmin.cn/201310/css/content.css"/><script type="text/javascript" src="http://image.xinmin.cn/template/script/v2/core.js"></script><script type="text/javascript" src="http://image.xinmin.cn/template/script/v2/phprpc/core.js"></script><script type="text/javascript" src="http://passport.xinmin.cn/application/passport/View/template/script/xmps.js"></script><script type="text/javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/201310/js/jquery-1.52.js"></script><script>jQuery.noConflict();</script>
+</head>
+
+<body>
+<!--顶部start-->
+<div class="TopNavBg">
+    <div class="TopNav">
+        <div class="subleft"><a href="http://mobile.xinmin.cn/" target="_blank" class="phoneIcon" title="客户端">客户端</a><a class="epager ShowSiteSubNav" id="epager" href="javascript:void(0)" title="数字报">数字报</a><a href="http://t.xinmin.cn/" target="_blank" title="上海滩" style="display:none!important">上海滩</a><a href="http://weibo.com/xinmincn" target="_blank" title="@新民晚报新民网">@新民晚报新民网</a>
+            <a href="http://ish.xinmin.cn/" target="_blank" title="新上线频道">
+                <span class="icon-new" style="position: absolute; margin:2px 0 0 -18px;*margin:-6px 0 0 -20px">
+                    <img src="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/new.gif" />
+                </span>
+                <strong>侬好上海</strong>
+            </a>
+        </div>
+        <div class="subright">
+            <div class="floatright" id="topnavlogin"><a href="http://passport.xinmin.cn/index.php?app=passport&controller=Register" target="_blank" class="regiter">注册</a><a href="http://passport.xinmin.cn/index.php?app=passport&controller=Login" target="_blank" class="loginin">登录</a>
+            </div>
+            <div class="search">
+                <form name='searchForm' method="get" action="http://search.xinmin.cn/" target="_blank">
+                    <div class="searchinput">
+                        <input type="text" name="q" id="keyword" class="keyword" value="" onClick="$('keyword').value = ''" />
+                        <input type="hidden" name="sort" value="r" />
+                    </div>
+                    <input type="submit" class="searchicon" value="" />
+                </form>
+            </div>
+            <script language="javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/201310/js/toplogin.js"></script>
+        </div>
+    </div>
+</div>
+<div class="SiteSubNav ShowSiteSubNav" id="SiteSubNav">
+    <ul>
+        <li><a href="http://xmwb.xinmin.cn/" target="_blank">新民晚报</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmwb.xinmin.cn/xmwbusa/" target="_blank">新民晚报美国版</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmwb.xinmin.cn/campus/" target="_blank">新民晚报大学版</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmzk.xinmin.cn/" target="_blank">新民周刊</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmwb.xinmin.cn/metro" target="_blank">新民地铁</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmwb.xinmin.cn/home/" target="_blank">家庭周刊</a>
+        </li>
+        <li class="shu">|</li>
+        <li><a href="http://xmwb.xinmin.cn/xmwbzone/" target="_blank">业主周刊</a>
+        </li>
+        <li class="shu">|</li>
+        <li class="topnavicondown2" id="topnavicondown2">街镇报</li>
+        <li class="shu">|</li>
+        <li><a href="http://hongkouweekly.xinmin.cn/" target="_blank">虹口报</a>
+        </li>
+    </ul>
+</div>
+<div class="szbtarget" id="szbtarget">
+	<a href="http://xmwb.xinmin.cn/xmwbzone/tpjy" target="_blank">天平家园</a>
+	<a href="http://xmwb.xinmin.cn/xmwbzone/hxht" target="_blank">鹤翔航头</a>
+	<a href="http://xmwb.xinmin.cn/xmwbzone/zjj" target="_blank">朱家角</a>
+	<a href="http://xmwb.xinmin.cn/xmwbzone/gzsj" target="_blank">古镇泗泾</a>
+	<a href="http://xmwb.xinmin.cn/xmwbzone/jrjx" target="_blank">今日九星</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s1" target="_blank">宝山社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s2" target="_blank">璀璨徐家汇</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s3" target="_blank">定海家园</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s4" target="_blank">科瑞物业</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s5" target="_blank">湖南社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s6" target="_blank">健康枫林</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s7" target="_blank">今日虹梅</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s8" target="_blank">今日练塘</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s9" target="_blank">龙华社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s10" target="_blank">曲阳社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s11" target="_blank">庙行之声</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s12" target="_blank">北站社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s13" target="_blank">江桥报</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s14" target="_blank">太平家园</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s15" target="_blank">嘉兴天地</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s16" target="_blank">美丽顾村</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s17" target="_blank">和谐盈浦</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s18" target="_blank">金泽报道</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s19" target="_blank">康健社区</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s20" target="_blank">走进广中</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s21" target="_blank">川北印象</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s22" target="_blank">重固家园</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s23" target="_blank">今日佘山</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s24" target="_blank">永丰社情</a>
+	<a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s25" target="_blank">友谊社区</a>
+	<a href="http://xmwb.xinmin.cn/xmwbzone/jrzj/" target="_blank">今日张江</a>
+    <a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s27" target="_blank">今日真如</a>
+    <a href="http://shanghai.xinmin.cn/xmwbzone/index.html#s28" target="_blank">宣桥之声</a>
+	<a class="borderno" href="http://shanghai.xinmin.cn/xmwbzone/index.html#s29" target="_blank">岳阳家园</a>
+</div>
+<script>
+//After Dom
+//jQuery(function(){
+var flagszbShow = false;
+var flagszbShow2 = false;
+var sUserAgent = navigator.userAgent.toLowerCase();
+if (sUserAgent.match(/ipad/i) == 'ipad' || sUserAgent.match(/iphone os/i) == 'iphone os') {
+    jQuery('#epager').click(function() {
+        if (!flagszbShow) {
+            jQuery('#SiteSubNav').show();
+            flagszbShow = true;
+        } else {
+            jQuery('#SiteSubNav').hide();
+            flagszbShow = false;
+        }
+    });
+    jQuery('#topnavicondown2').click(function() {
+        if (!flagszbShow2) {
+            jQuery('#szbtarget').show();
+            flagszbShow2 = true;
+        } else {
+            jQuery('#szbtarget').hide();
+            flagszbShow2 = false;
+        }
+    });
+} else {
+    //open firstnav
+    jQuery('.ShowSiteSubNav').each(function() {
+        jQuery(this).mouseover(function() {
+            jQuery('#SiteSubNav').show();
+            jQuery('#epager').addClass('hasbold');
+        })
+    });
+    //open secondnav
+    jQuery('#topnavicondown2').mouseover(function() {
+        jQuery('#szbtarget').show();
+        jQuery('#epager,#topnavicondown2').addClass('hasbold');
+    })
+    //out secondnav all hide
+    jQuery('#szbtarget').mouseover(function() {
+        jQuery(this).show();
+        jQuery('#SiteSubNav').show();
+        jQuery('#epager,#topnavicondown2').addClass('hasbold');
+        jQuery(this).mouseout(function() {
+            jQuery(this).hide();
+            jQuery('#SiteSubNav').hide();
+            jQuery('#epager,#topnavicondown2').removeClass('hasbold');
+        })
+    });
+    //out firstnav first hide if second none
+    jQuery('#SiteSubNav').mouseover(function() {
+        if (jQuery('#szbtarget').css('display') == 'none') {
+            jQuery(this).mouseout(function() {
+                jQuery(this).hide();
+                jQuery('#epager,#topnavicondown2').removeClass('hasbold');
+            })
+        } else {
+            jQuery(this).mouseout(function() {
+                jQuery(this).hide();
+                jQuery('#szbtarget').hide();
+                jQuery('#epager,#topnavicondown2').removeClass('hasbold');
+            })
+        }
+    });
+}
+
+//});
+</script>
+<!--顶部end-->
+<!--广告start-->
+<div class="ContentAd_top" id="AdContentTop1">
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=980&h=90&posid=1261&x=js'></script>
+	</div>
+<div class="ContentAd_top" id="AdContentTop2">
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=980&h=90&posid=1262&x=js'></script>
+	</div>
+<!--广告end-->
+
+<!--nav start-->
+<style>
+.ContentNav{ width:980px; height:34px; overflow:hidden; margin:0 auto; margin-top:10px;}
+.ContentNav .logo{ display:block; width:119px; height:34px; overflow:hidden; background:url(http://image.xinmin.cn/template/www.xinmin.cn/201310/images/content_logo.jpg); float:left;}
+.ContentNav .nav{ width:auto; height:31px; overflow:hidden; float:right; margin-top:3px;background:url(http://image.xinmin.cn/template/www.xinmin.cn/201310/images/content_nav_bg.jpg) repeat-x; padding:0 10px 0 10px;-moz-border-radius:3px;border-radius:3px;}
+.ContentNav .nav li{ width:auto; height:auto; overflow:hidden; line-height:28px; float:left; color:#4E7EA2; font-size:14px}
+.ContentNav .nav li a{ padding:3px 3px;*padding:3px 3px 2px 3px;color:#FFFFFF; line-height:30px;}
+.ContentNav .nav li a:hover{background:#4b90c2;color:#fff; text-decoration:none;-moz-border-radius:3px;border-radius:3px;}
+.ContentNav .nav li .nohover:hover{background:none;}
+.ContentNav .nav li .nohover img{ margin-top:4px;}
+.ContentNav .nav li span{ display:block; width:auto; padding:0 3px 0 3px;}
+</style>
+<div class="ContentNav">
+	<a href="http://www.xinmin.cn/" target="_blank" title="新民网" class="logo"></a>
+	<div class="nav">
+		<ul>
+		  <li><a href="http://www.xinmin.cn/" target="_blank">首页</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://news.xinmin.cn/t/gdbd/" target="_blank">头条</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://www.xinmin.cn/listsh/" target="_blank">上海</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://tag.xinmin.cn/9582/index.html" target="_blank">新民茶馆</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://tag.xinmin.cn/2330/index.html" target="_blank">豪小编吐槽</a></li>
+		  <li><span>|</span></li>
+		  <!--<li><a href="http://shanghai.xinmin.cn/video/" target="_blank">新视频</a></li>
+		  <li><span>|</span></li>-->
+		  <li><a href="http://sh.xinmin.cn/special/newspictures/indexgg.html" target="_blank">新图片</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://shanghai.xinmin.cn/video/xmjf/" target="_blank">街访</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="#" target="_blank" class="todayrecommond_url">聚合</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://news.xinmin.cn/xmzt/" target="_blank">专题</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://shanghai.xinmin.cn/xmmd/" target="_blank">新民调</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://www.xinmin.cn/weiyanboyi/index.html" target="_blank" style="display:none!important">微言博议</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://tousu.xinmin.cn/" target="_blank">投诉</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://t.xinmin.cn/baoliao" target="_blank" style="display:none!important">爆料</a></li>
+		  <li><span>|</span></li>
+		  <li><a href="http://ish.xinmin.cn/" target="_blank" class="nohover"><img src="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/nhsh_icon.jpg"/></a></li>
+		</ul>
+	</div>
+</div>
+<!--nav end-->
+
+<!--微信二维码start-->
+<div class="ArtFollow ArtFollowcontent" id="ArtFollow">
+	<span class="closecontent" onclick="jQuery('#ArtFollow').fadeOut('fast');Cookie.write('closecontent','closecontent',{duration:0.006});">关闭</span>
+	<div class="mobile2w"><span class="t">新民网移动客户端</span><span class="ww"></span><a href="http://mobile.xinmin.cn/" target="_blank" class="scan">点击或扫描下载</a></div>
+	<a href="http://www.jiathis.com/send/?webid=tsina&url=http://www.xinmin.cn&title=" class="iconsharesina"></a>
+	<a href="http://www.jiathis.com/send/?webid=tqq&url=http://www.xinmin.cn&title=" class="iconshareqq"></a>
+	<a href="#MP_commentSubmit" class="iconcomment" style="display:none"></a>
+	<a href="javascript:void(0)" class="icontopback" id="icontopback" style="display:none" onclick="jQuery('html,body').animate({scrollTop:'0'}, 400);"></a>
+</div>
+<script>if(Cookie.read('closecontent')){$('ArtFollow').setStyle('display','none')};window.onscroll = function(){if(jQuery(document).scrollTop() > 200){jQuery('#icontopback').fadeIn('normal');}else{jQuery('#icontopback').fadeOut('normal');}}</script>
+<!--微信二维码end-->
+
+<!--主体start-->
+<div class="MainBody MainContentmargin10px">
+	<!--main start-->
+	<div class="contentmain" id="list_asideleft_height">
+		<!--start 广告-->
+		<div class="ContentAd_665_80" id="AdContenthengfu">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='665' height='80' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=665&h=80&posid=1263&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=665&h=80&posid=1263&x=js'></script></iframe>
+									</div>
+		<!--end 广告-->
+		<!--start 面包削-->
+		<div class="xinminMianbaoxue"> 您现在的位置：<a href="http://www.xinmin.cn/">首页</a> > <span class="fontblue">页面未找到</span> </div>
+		<!--end 面包削-->
+		<!--start 搜索-->
+		<div class="xmArticleSearch"><form name='articleForm' method="get" action="http://search.xinmin.cn/" target="_blank"><input type="text" name="q" id="keyarticle" class="keyarticle" value="" onclick="$('keyarticle').value = ''"/><input type="hidden" name="sort" value="r"/><input type="submit" class="articleicon" value="搜 索"/></form></div>
+		<!--end 搜索-->
+		<!--start 广告-->
+		<div class="ContentAd_665_30" id="AdContenthf">
+																		
+				<iframe marginheight='0' marginwidth='0' frameborder='0' width='665' height='30' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=665&h=30&posid=1278&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=665&h=30&posid=1278&x=js'></script></iframe>
+												</div>
+		<!--end 广告-->
+		<!--start 正文部分-->
+		<div class="xinminContent_MainPart clearfix" style="height:2250px;">
+			<img style="margin-left:190px; margin-top:150px;" src="http://image.xinmin.cn/template/mobile.xinmin.cn/newxinmin/images/404.jpg" /> 
+			<a style=" display:block; width:auto; height:auto; font-size:14px; font-family:'宋体'; margin-top:20px;margin-left:280px;" href="http://www.xinmin.cn">返回新民网首页>></a>
+		</div>
+		<!--end 正文部分-->
+	</div>
+	<!--main end-->
+	<!--右边栏start-->
+	<div class="aside contentwidth" id="list_asideright_height">
+		<!--民调start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='新民调'><a href="http://shanghai.xinmin.cn/xmmd/" target="_blank">新民调</a></h2><a class="more" href="http://shanghai.xinmin.cn/xmmd/" target="_blank">更多</a></div>
+			<div class="contentxinminmd">
+				<div id="mdmd" class="mdmd"> 
+					<script type="text/javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/201310/js/2013md.js"></script>
+					
+					<script type="text/javascript">	
+load_md('1','3653','http://shanghai.xinmin.cn/xmmd/2016/11/30/30644484.html','http://shanghai.xinmin.cn/xmmd/2016/11/30/30644484.html#MP_commentSubmit');
+</script>
+					<ul class="box_xmzt">
+					<li class="box_xmzt_con"><div id="xmmd_1" class="xmmd"><center>数据加载中……</center></div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--民调end-->
+		<div class="blank38"></div>
+		<!--广告start-->
+		<div class="ContentAd_300_250">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='300' height='250' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1268&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1268&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+		<!--新民福利社start-->
+		<script language="javascript" src="http://image.xinmin.cn/t/attach/xinminIndexSideBar.js"></script>
+		<script type="text/javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/201310/js/hd.js"></script>
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='新民福利社'><a href="http://weibo.com/u/3900437765" target="_blank">新民福利社</a></h2><a class="more" href="http://weibo.com/u/3900437765" target="_blank">更多</a></div>
+			<div class="contentfuli">
+				
+				<a class="pic" href="http://op.xinmin.cn/xmfl/2014/05/26/24397992.html" target="_blank"><img src="http://image.xinmin.cn/2014/12/26/20140526182314444626_262x185.jpg" title='带囡囡看4D大片，畅玩上海科技馆！' alt='带囡囡看4D大片，畅玩上海科技馆！'></a>
+				<p class="des">【看4D大片，玩科技馆！】 最近，小侬给小朋友们的福利一波接一波。报名时间：5月23日—5月27日  <a href="http://op.xinmin.cn/xmfl/2014/05/26/24397992.html" target="_blank">[详情]</a></p>
+			</div>
+		</div>
+		<!--新民福利社end-->
+		<!--新产品start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='新产品'><span>新产品</span></h2></div>
+			<div class="contentproductbox"><a href="http://xmwb.xinmin.cn/" target="_blank" class="part0 taghover">晚报速览</a><a href="http://tousu.xinmin.cn/" target="_blank" class="part1 taghover">投诉</a><a href="http://t.xinmin.cn/baoliao" target="_blank" class="part2 taghover" style="display:none!important;">爆料</a><a href="http://shanghai.xinmin.cn/video/" target="_blank" class="part4 taghover">视频</a><a href="http://shanghai.xinmin.cn/xmxzd/" target="_blank" class="part5 taghover">新知道</a><a href="http://www.xinmin.cn/listsh/" target="_blank" class="part6 taghover">区县新闻</a><a href="#" target="_blank" class="part7 taghover todayrecommond_url">聚合阅读</a></div>
+		</div>
+		<!--新产品end-->
+		<!--广告start-->
+		<div class="ContentAd_260_165">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='260' height='165' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=260&h=165&posid=1566&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=260&h=165&posid=1566&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+		<!--微互动start-->
+		<div class="sidebox" style="display:none!important">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='微互动'>微互动</h2></div>
+			<div class="contentwhdcms">
+				
+				<a href="http://www.xinmin.cn/weiyanboyi/2014/12/23/26284573.html" target="_blank" class="tit" title='医生手术台自拍照备受争议，副院长等3人被免职，咋看？'>医生"手术台自拍照"备受争议，副院长等3人被免职，咋看？</a>
+				<a class="pic" href="http://www.xinmin.cn/weiyanboyi/2014/12/23/26284573.html" target="_blank"><img src="http://image.xinmin.cn/2014/12/23/20141223150345358505.jpg" title='医生手术台自拍照备受争议，副院长等3人被免职，咋看？' alt='医生手术台自拍照备受争议，副院长等3人被免职，咋看？' width="262"/></a>
+				<div class="blank10"></div>
+				<a class="whd_t floatleft taghover hdwidth" href="http://www.xinmin.cn/weiyanboyi/" target="_blank" title="微言博议">微言博议</a>
+				<a class="whd_t floatleft taghover hdwidth tzhmargin" href="http://www.xinmin.cn/tingzhenghui/" target="_blank" title="网上听证会">网上听证会</a>
+				<a class="whd_t floatright taghover hdwidth" href="http://opinion.xinmin.cn/weifangtan/" target="_blank" title="微访谈">微访谈</a>
+			</div>
+			<div class="contentwhdweibo">
+				<script>document.write(microNewsBolgs)</script>
+				<!--<a class="whd_t floatleft taghover hdwidth" href="http://www.xinmin.cn/weiyanboyi/" target="_blank" title="投诉">投诉</a>-->
+				<a class="whd_t taghover hdwidth" href="http://t.xinmin.cn/baoliao" target="_blank" title="我要爆料" style="display:none!important;">我要爆料</a>
+			</div>
+		</div>
+		<!--微互动end-->
+		<!--广告start-->
+		<div class="ContentAd_260_120">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='260' height='120' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=260&h=120&posid=1567&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=260&h=120&posid=1567&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+		<!--新视频新图片start-->
+		<script language="javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/201210/js/lanrenxixi.js"></script>
+		<div class="sidebox">
+			<div id="index-splash-block" class="index-splash-block">
+				<div id="feature-slide-block" class="feature-slide-block">
+					<div class="sidetitle contentasidewidth">
+						<h2 class="name fontweight" title='新视频 新图片'><a href="http://shanghai.xinmin.cn/video/" target="_blank">新视频</a> <a href="http://sh.xinmin.cn/special/newspictures/indexgg.html" target="_blank">新图片</a></h2>
+						<div id="feature-slide-list" class="feature-slide-list">
+							<a href="#" id="feature-slide-list-previous" class="feature-slide-list-previous"></a>
+							<div id="feature-slide-list-items" class="feature-slide-list-items"></div>
+							<a href="#" id="feature-slide-list-next" class="feature-slide-list-next"></a>
+						</div>
+					</div>
+					
+					<ul class="feature-slide-preview">
+																		<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105864.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/20/20170620120658110818_115x80.jpg"  width="115" height="80" title='一百多年来交大“学霸”们的试卷笔记长啥样？今天起可以在这里看到！' alt='一百多年来交大“学霸”们的试卷笔记长啥样？今天起可以在这里看到！'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105864.html" target="_blank" title='一百多年来交大“学霸”们的试卷笔记长啥样？今天起可以在这里看到！'>一百多年来交大“学霸”们的试卷笔记...</a><p>由上海交通大学档案馆（党史校史研究... <a href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105864.html" target="_blank">[详情]</a></p></div></li>
+																								<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/tfbd/2017/06/20/31105886.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/20/20170620125058578729_115x80.jpg"  width="115" height="80" title='今晨一女司机驾宝马车撞碎上海精神卫生中心招牌' alt='今晨一女司机驾宝马车撞碎上海精神卫生中心招牌'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/tfbd/2017/06/20/31105886.html" target="_blank" title='今晨一女司机驾宝马车撞碎上海精神卫生中心招牌'>今晨一女司机驾宝马车撞碎上海精神卫...</a><p>今天早上，微博上网友爆料，上海市精... <a href="http://shanghai.xinmin.cn/tfbd/2017/06/20/31105886.html" target="_blank">[详情]</a></p></div></li>
+																																																																																																																	</ul>
+					<ul class="feature-slide-preview">
+																																										<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105835.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/20/20170620105821193912_115x80.jpg"  width="115" height="80" title='国内首个“无感支付”停车库今在虹桥机场开通 车辆出库只需2秒' alt='国内首个“无感支付”停车库今在虹桥机场开通 车辆出库只需2秒'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105835.html" target="_blank" title='国内首个“无感支付”停车库今在虹桥机场开通 车辆出库只需2秒'>国内首个“无感支付”停车库今在虹桥...</a><p>今天上午，全国首个“无感支付”停车... <a href="http://shanghai.xinmin.cn/msrx/2017/06/20/31105835.html" target="_blank">[详情]</a></p></div></li>
+																								<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/msrx/2017/06/12/31092148.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/12/20170612091510623691_115x80.jpg"  width="115" height="80" title='82岁“中华”铅笔：写下民族自信和航天梦想' alt='82岁“中华”铅笔：写下民族自信和航天梦想'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/msrx/2017/06/12/31092148.html" target="_blank" title='82岁“中华”铅笔：写下民族自信和航天梦想'>82岁“中华”铅笔：写下民族自信和...</a><p>“上学时，中华是一支细细的铅笔，我... <a href="http://shanghai.xinmin.cn/msrx/2017/06/12/31092148.html" target="_blank">[详情]</a></p></div></li>
+																																																																																									</ul>
+					<ul class="feature-slide-preview">
+																																																																		<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/msrx/2017/06/07/31083358.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/09/20170607173318355059_115x80.png"  width="115" height="80" title='家有老人的看过来！今天这个展会上的“黑科技”让照护任务不再难！' alt='家有老人的看过来！今天这个展会上的“黑科技”让照护任务不再难！'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/msrx/2017/06/07/31083358.html" target="_blank" title='家有老人的看过来！今天这个展会上的“黑科技”让照护任务不再难！'>家有老人的看过来！今天这个展会上的...</a><p>今天（6月7日），国内养老福祉产业... <a href="http://shanghai.xinmin.cn/msrx/2017/06/07/31083358.html" target="_blank">[详情]</a></p></div></li>
+																								<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/msrx/2017/06/07/31081934.html" target="_blank"><img src="http://image.xinmin.cn/2017/06/07/20170607084659024449_115x80.jpg"  width="115" height="80" title='申城5万高考生今走进考场 记者直击：考生淡定 互相打气' alt='申城5万高考生今走进考场 记者直击：考生淡定 互相打气'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/msrx/2017/06/07/31081934.html" target="_blank" title='申城5万高考生今走进考场 记者直击：考生淡定 互相打气'>申城5万高考生今走进考场 记者直击...</a><p>今天，全国统一高考开考。今年上海市... <a href="http://shanghai.xinmin.cn/msrx/2017/06/07/31081934.html" target="_blank">[详情]</a></p></div></li>
+																																																																	</ul>
+					<ul class="feature-slide-preview">
+																																																																																										<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/xmsq/2017/05/30/31065549.html" target="_blank"><img src="http://image.xinmin.cn/2017/05/30/20170530092019801903_115x80.jpg"  width="115" height="80" title='老字号新气象 | 凤凰双甲子 展翅飞万里' alt='老字号新气象 | 凤凰双甲子 展翅飞万里'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/xmsq/2017/05/30/31065549.html" target="_blank" title='老字号新气象 | 凤凰双甲子 展翅飞万里'>老字号新气象 | 凤凰双甲子 展翅飞万里</a><p>今年，民族品牌“上海凤凰”迎来12... <a href="http://shanghai.xinmin.cn/xmsq/2017/05/30/31065549.html" target="_blank">[详情]</a></p></div></li>
+																								<li class="clearfix"><a class="pic" href="http://shanghai.xinmin.cn/xmsq/2017/05/28/31049330.html" target="_blank"><img src="http://image.xinmin.cn/2017/05/28/20170527225352131816_115x80.jpg"  width="115" height="80" title='病人去世家属为何送来锦旗？这里与“毒”斗法 30多个端午都过去了' alt='病人去世家属为何送来锦旗？这里与“毒”斗法 30多个端午都过去了'/></a><div class="con"><a class="tit" href="http://shanghai.xinmin.cn/xmsq/2017/05/28/31049330.html" target="_blank" title='病人去世家属为何送来锦旗？这里与“毒”斗法 30多个端午都过去了'>病人去世家属为何送来锦旗？这里与“...</a><p>每次四小时、每周三次，五年、十年、... <a href="http://shanghai.xinmin.cn/xmsq/2017/05/28/31049330.html" target="_blank">[详情]</a></p></div></li>
+																																									</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">initFeatureSlide();</script>
+		<!--新视频新图片end-->
+		<!--新热点start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='新热点'><a href="http://news.xinmin.cn/t/gdbd/" target="_blank">新热点</a></h2><a class="more" href="http://news.xinmin.cn/t/gdbd/" target="_blank">更多</a></div>
+			<div class="contentasidelist">
+				<ul>
+					
+																																																																											<li><a href="http://shanghai.xinmin.cn/msrx/2017/06/21/31106190.html" title='上海浦江、嘉北、广富林三大郊野公园今年下半年陆续开园' target="_blank" >上海浦江、嘉北、广富林三大郊野公园今年下半年陆续开园</a></li>
+																				<li><a href="http://shanghai.xinmin.cn/xmsq/2017/06/21/31106187.html" title='寻人：救助上海177路公交车司机的女乘客 您在哪里？' target="_blank" >寻人：救助上海177路公交车司机的女乘客 您在哪里？</a></li>
+																				<li><a href="http://shanghai.xinmin.cn/tfbd/2017/06/21/31106182.html" title='武装分子占领菲律宾南部一所学校 劫持学生做人质' target="_blank" >武装分子占领菲律宾南部一所学校 劫持学生做人质</a></li>
+																				<li><a href="http://shanghai.xinmin.cn/msrx/2017/06/21/31106179.html" title='公共服务领域英文译写有国家标准！豆腐、拉面怎么翻有规范' target="_blank" >公共服务领域英文译写有国家标准！豆腐、拉面怎么翻有规范</a></li>
+																				<li><a href="http://shanghai.xinmin.cn/msrx/2017/06/21/31106176.html" title='《上海市促进科技成果转移转化移动方案2017-2020》发布' target="_blank" >《上海市促进科技成果转移转化移动方案2017-2020》发布</a></li>
+														</ul>
+			</div>
+		</div>
+		<!--新热点end-->
+		<!--聚合阅读start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight"><a href="#" target="_blank" class="todayrecommond_url">聚合阅读</a></h2><a class="more todayrecommond_url" href="#" target="_blank">更多</a></div>
+						<script>var todayrecommond = {'title':'新民晚报海外版','url':'http://tag.xinmin.cn/20743/index.html'};window.addEvent('domready', function(){jQuery('.todayrecommond_url').attr('href',todayrecommond.url);});</script>
+						<div class="contentjuhereading">												<table class="tagpart1 taghover"><tr><td onclick="window.open('http://tag.xinmin.cn/21009/index.html')" title='丝路历史与今天'>丝路历史与今天</td></tr></table>
+												<table class="tagpart2 taghover"><tr><td onclick="window.open('http://tag.xinmin.cn/20872/index.html')" title='当好排头兵 勇做先行者——上海市第十一次党代会'>当好排头兵 勇做先行者——上海市第十一次党代会</td></tr></table>
+												<table class="tagpart3 taghover"><tr><td onclick="window.open('http://tag.xinmin.cn/20553/index.html')" title='天天3·15，我们来较真！'>天天3·15，我们来较真！</td></tr></table>
+												<table class="tagpart4 taghover"><tr><td onclick="window.open('http://tag.xinmin.cn/20847/index.html')" title='反腐肃纪年度观察'>反腐肃纪年度观察</td></tr></table>
+												<table class="tagpart5 taghover"><tr><td onclick="window.open('http://tag.xinmin.cn/20825/index.html')" title='十八届六中全会释放从严治党最强音'>十八届六中全会释放从严治党最强音</td></tr></table>
+						</div>
+		</div>
+		<!--聚合阅读end-->
+		<!--广告start-->
+		<div class="ContentAd_300_250">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='300' height='250' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1269&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1269&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+		<!--新生活start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='新生活'><span>新生活</span></h2><!--<a class="more" href="#" target="_blank">更多</a>--></div>
+			<div class="contentasidelist">
+				<ul>
+					
+					<li><a href="http://op.xinmin.cn/chwl/2014/05/12/24285120.html" title='蚝情万丈 沪上最佳生蚝地图' target="_blank">蚝情万丈 沪上最佳生蚝地图</a></li>
+					
+					<li><a href="http://op.xinmin.cn/artsbird/qinzi/2013/10/11/22235844.html" title='音乐剧《妈妈再爱我一次》' target="_blank">音乐剧《妈妈再爱我一次》</a></li>
+					
+										<li><a href="http://fashion.xinmin.cn/fssh/2013/11/15/22649468.html" title='满城金黄！上海最佳赏银杏地' target="_blank">满城金黄！上海最佳赏银杏地</a></li>
+										<li><a href="http://fashion.xinmin.cn/fssh/2013/11/14/22643157.html" title='2013维秘大秀 天价钻石内衣亮瞎眼' target="_blank">2013维秘大秀 天价钻石内衣亮瞎眼</a></li>
+										
+					<li><a href="http://health.xinmin.cn/jkys/2013/12/30/23098500.html" title='小心！生活处处有催眠？' target="_blank">小心！生活处处有催眠？</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--新生活end-->
+		<!--广告start-->
+		<div class="ContentAd_300_250">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='300' height='250' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1270&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1270&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+		<!--企业资讯start-->
+		<div class="sidebox">
+			<div class="sidetitle contentasidewidth"><h2 class="name fontweight" title='企业资讯'><a href="http://company.xinmin.cn/latest/" target="_blank">企业资讯</a></h2><a class="more" href="http://company.xinmin.cn/latest/" target="_blank">更多</a></div>
+			<div class="contentasidelist">
+				<ul>
+					
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/15/31100340.html" title='玩转避暑圣地——承德必去景点大全！' target="_blank" >玩转避暑圣地——承德必去景点大全！</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/21/31106234.html" title='金可儿亮相首届北京国际家居展，奏响完美睡眠三部曲' target="_blank" >金可儿亮相首届北京国际家居展，奏响完美睡眠三部曲</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/21/31106191.html" title='宁波银行上海分行走进工艺美院 面对面传授“防骗技能”' target="_blank" >宁波银行上海分行走进工艺美院 面对面传授“防骗技能”</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31106005.html" title='远成集团喜度29周年纪念，同心聚力扬帆再征新途' target="_blank" >远成集团喜度29周年纪念，同心聚力扬帆再征新途</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31106003.html" title='青萌互娱受邀出席腾讯NOW直播年度战略发布会' target="_blank" >青萌互娱受邀出席腾讯NOW直播年度战略发布会</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31106002.html" title='世贸商城变身“美食城”！ “亚米星球节”引爆魔都' target="_blank" >世贸商城变身“美食城”！ “亚米星球节”引爆魔都</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31106001.html" title='汇聚创业菁英，2017五角场创业大赛正式启动！' target="_blank" >汇聚创业菁英，2017五角场创业大赛正式启动！</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31106000.html" title='恒隆广场上海荣获2017亚洲—太平洋史蒂夫奖' target="_blank" >恒隆广场上海荣获2017亚洲—太平洋史蒂夫奖</a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31105999.html" title='摩天轮票务 让更多百姓走进剧场 ' target="_blank" >摩天轮票务 让更多百姓走进剧场 </a></li>
+										<li><a href="http://shanghai.xinmin.cn/latest/2017/06/20/31105996.html" title='汉能李河君：“借船也能出海”' target="_blank" >汉能李河君：“借船也能出海”</a></li>
+									</ul>
+			</div>
+		</div>
+		<!--企业资讯end-->
+		<!--广告start-->
+		<div class="ContentAd_300_250">
+														
+			<iframe marginheight='0' marginwidth='0' frameborder='0' width='300' height='250' scrolling='no' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1271&x=html'><script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=300&h=250&posid=1271&x=js'></script></iframe>
+									</div>
+		<!--广告end-->
+	</div>
+	<!--右边栏end-->
+</div>
+<!--主体end-->
+
+<!--底部start-->
+    <style>
+    .BottomNavBg .BottomNav .subnav .hasborderweibo {
+        background: url(http://image.xinmin.cn/template/www.xinmin.cn/201310/images/v2sinaicon.jpg) no-repeat 3px center;
+        padding-left: 22px
+    }
+    .BottomNavBg .BottomNav .left{
+        display:inline-block;vertical-align:top;
+        *display: inline;
+        *zoom:1;
+        width:72%;
+    }
+    .BottomNavBg .BottomNav .right{
+        width:27%;display:inline-block;vertical-align:top;
+        *display: inline;
+        *zoom:1;
+        line-height: 20px;
+        color: #686868;
+    }
+    </style>
+    <div class="BottomNavBg">
+        <div class="BottomNav">
+            <div class="left">
+                <p class="subnav">
+                    <strong class="strongtype2" title="新民报系成员">新民报系成员</strong><a href="http://www.xinmin.cn/bxcy/index.htm" target="_blank" target="新民晚报">新民晚报</a><a href="http://www.xinmin.cn/" target="_blank" title="新民网">新民网</a><a href="http://www.xinmin.cn/bxcy/xmzk.htm" target="_blank" title="新民周刊">新民周刊</a><a href="http://www.xinmin.cn/bxcy/sqb.htm" target="_blank" target="新民晚报社区版">新民晚报社区版</a><a href="http://www.xinmin.cn/bxcy/sh333.htm" target="_blank" title="新民地铁">新民地铁</a>
+                </p>
+                <p class="blank15"></p>
+                <p class="subnav clearleft">
+                    <strong class="strongtype1" title="客户端">客户端</strong><a href="http://xmwb.xinmin.cn/" target="_blank" class="hasborder" title="新民晚报数字报">新民晚报数字报</a><a href="http://itunes.apple.com/us/app/xin-min-wan-baohd/id436699738?ls=1&mt=8" target="_blank" class="hasborder" title="新民晚报ipad版">新民晚报ipad版</a><a href="http://mobile.xinmin.cn/" target="_blank" class="hasborder" title="新民网客户端">新民网客户端</a>
+                </p>
+                <p class="blank15"></p>
+                <p class="subnav clearleft">
+                    <strong class="strongtype1" title="官方微博">官方微博</strong><a href="http://t.xinmin.cn/" target="_blank" class="hasborder" title="上海滩" style="display:none!important">上海滩</a><a href="http://weibo.com/xinmincn/" target="_blank" class="hasborder hasborderweibo" title="新民晚报新民网">新民晚报新民网</a>
+                </p>
+                <p class="subnav clearleft">
+                    <strong class="strongtype2" title="关注我们">微信号</strong><a href="javascript:void(0)" rel='http://image.xinmin.cn/template/www.xinmin.cn/201310/images/xmwb.jpg?2' title="新民晚报">新民晚报</a><a href="javascript:void(0)" rel='http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_small.jpg' title="侬好上海">侬好上海</a><a href="javascript:void(0)" rel='http://image.xinmin.cn/template/www.xinmin.cn/201310/images/content_wx_pic2.jpg' title="新民网事">新民网事</a><a href="javascript:void(0)" rel='http://image.xinmin.cn/template/www.xinmin.cn/201310/images/content_wx_pic4.jpg' title="新民网茶馆">新民网茶馆</a><a href="javascript:void(0)" title="新民法谭" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_fatan.jpg">新民法谭</a><a href="javascript:void(0)" title="新民体育" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_tiyu.jpg">新民体育</a><a href="javascript:void(0)" title="新民金融城" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_1.jpg">新民金融城</a><a href="javascript:void(0)" title="上海花城" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_2.jpg">上海花城</a><a href="javascript:void(0)" title="新民演艺" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_3.jpg">新民演艺</a><a href="javascript:void(0)" title="新民活动" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/weixin_4.jpg">新民活动</a>
+                    <a href="javascript:void(0)" title="新民咖啡馆" rel="http://image.xinmin.cn/template/www.xinmin.cn/201310/images/xmcfg.jpg">新民咖啡馆</a>
+                </p>
+                <p class="subnav">
+                    <strong class="strongtype2" title="新民网">新民网</strong><a href="http://www.xinmin.cn/info/aboutus.html" target="_blank" title="关于新民网">关于新民网</a><a href="http://www.xinmin.cn/info/contactus.html" target="_blank" title="联系方式">联系方式</a><a href="http://www.xinmin.cn/job/" target="_blank" title="工作机会">工作机会</a><a href="http://www.xinmin.cn/info/copyright.html" target="_blank" title="知识产权声明">知识产权声明</a><a href="http://www.xinmin.cn/info/link.html" target="_blank" title="友情链接">友情链接</a><a href="http://image.xinmin.cn/template/www.xinmin.cn/201011/2011gg.pdf" target="_blank" title="新民晚报广告刊例">新民晚报广告刊例</a>
+                </p>
+                <p class="subnav clearleft">
+                    <strong class="strongtype2" title="战略合作伙伴">战略合作伙伴</strong><a href="http://www.founder.com.cn/zh-cn/" target="_blank" title="北大方正">北大方正</a><a href="http://www.shanghaiconcerthall.org/" target="_blank" title="上海音乐厅">上海音乐厅</a><a href="http://www.cbsn.com.cn/" target="_blank" title="中卫普信">中卫普信</a><a href="http://jiangtang.xinmin.cn/" target="_blank" title="东方讲坛">东方讲坛</a><a href="http://www.qjwb.com.cn/" target="_blank" title="钱报网">钱报网</a><a href="http://angli.xinmin.cn/" target="_blank" title="少儿英语教育论坛">少儿英语教育论坛</a><a href="http://www.cac.gov.cn/" target="_blank" title="中国网信网">中国网信网</a><a href="http://www.nncc626.com" target="_blank" title="中国禁毒网">中国禁毒网</a><a href="http://www.ljzfin.com" target="_blank" title="陆家嘴金融网">陆家嘴金融网</a>
+                </p>
+            </div>
+            <div class="right">
+                <p style="font-weight:bold;margin-bottom: 5px;margin-top: 15px;color:#000;">上海市新闻道德委员会社会监督投诉电话、来信来访地址及电子信箱：</p>
+                <p>1. 投诉专线电话：021-64023633<br/>
+2. 社会监督来信地址：上海市闵行区都市路4855号2号楼 邮编：201199<br/>
+3. 来访接待：<br/>
+   上海市闵行区都市路4855号2号楼<br/>
+   上海市新闻道德委员会举报中心<br/>
+4. 投诉电子信箱：shsxwddwyh@163.com<br/>
+   上海市新闻道德委员会通过社会监督电话、来信来访接待、电子邮件等多种方式，受理社会各界对新闻机构及新闻从业人员新闻职业道德失范行为的举报和投诉，对违反职业道德的行为进行监督。<br/>
+   受理时间接待时间为：<br/>
+   工作日上午9:30--11:00;下午1:30--4:00
+</p>
+            </div>
+            <h4 class="sitemap" title="网站地图"><a href="http://www.xinmin.cn/info/sitemap.html" target="_blank">查看网站地图</a></h4>
+            <div class="siteinfo">
+                <p><a href="http://www.xinmin.cn/bxcy/license2.html" target="_blank">增值电信业务经营许可证（ICP）：沪B2-20110022号</a> | <a href="http://www.xinmin.cn/bxcy/license.htm" target="_blank">互联网新闻信息服务许可证：3112009001</a> | <a href="http://www.xinmin.cn/bxcy/license3.html" target="_blank">信息网络传播视听节目许可证：0909381</a>
+                </p>
+                <p><span>广电节目制作经营许可证:(沪)字第536号</span> | <span><a href="http://shanghai.xinmin.cn/xmsz/2014/09/10/25335543.html" target="_blank">违法与不良信息举报电话15900430043</a></span> | <span><a href="http://www.xinmin.cn/ycst.html" target="_blank">网络敲诈和有偿删帖</a></span>
+                </p>
+                <p> <span>新民晚报官方网站  xinmin.cn ©2013 &nbsp;All rights reserved.</span></p>
+            </div>
+            <a class="zfIcon1" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20110415160615440" target="_blank"><img src="http://image.xinmin.cn/template/www.xinmin.cn/201011/ls/icon.gif" />
+            </a>
+            <a class="zfIcon2" href="http://www.shjbzx.cn" target="_blank"><img src="http://image.xinmin.cn/template/www.xinmin.cn/201011/images/logo_fa.png" />
+            </a>
+        </div>
+    </div>
+    <!--底部end-->
+    <!--列表弹出缩略图效果层start-->
+    <style>
+    #preview {
+        overflow: visible;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    #preview img {
+        height: 90px
+    }
+    </style>
+    <div id="preview"></div>
+    <script type="text/javascript" src="http://image.xinmin.cn/template/www.xinmin.cn/200912/js/popupImages_v1.js"></script>
+    <!--列表弹出缩略图效果层end-->
+<!-- 流量统计代码 start-->
+<div style="display:none">
+    <!--百度统计-->
+    <script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8ab7263c9280868f0c3ef17366bf585a' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <!--百度统计-->
+    <!--cnzz统计代码 start-->
+    <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1253710412'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1253710412' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <!--cnzz统计代码 end-->
+    <!-- verystat -->
+    
+    <!-- verystat -->
+    <!-- total -->
+    <script language="javascript" src="http://total.xinmin.cn/"></script>
+    <!-- total -->
+    
+    
+</div>
+<!-- 流量统计代码 end-->
+
+</body>
+</html>
+<!--对联1 start-->
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=100&h=300&posid=1274&x=js'></script>
+	<!--对联1 end-->
+
+<!--对联2 start-->
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=100&h=200&posid=1275&x=js'></script>
+	<!--对联2 end-->
+
+<!--弹窗 start-->
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=250&h=250&posid=1276&x=js'></script>
+	<!--弹窗 end-->
+
+<!--弹窗（小） start-->
+				
+	<script language='javascript' src='http://www2.xinmin.cn/showadcode.asp?w=150&h=150&posid=1277&x=js'></script>
+	<!--弹窗（小） end-->
+		

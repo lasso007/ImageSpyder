@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404-页面不存在|中国网•东海资讯</title>
+<meta name="keywords" content="东海资讯网,财经新闻网,法制新闻网,健康饮食文化,教育,东海旅游网,娱乐新闻,东海资讯房产,科技动态，东海资讯中国网,东海资讯新闻,中国网东海资讯">
+<meta name="description" content="中国网•东海资讯是国家重点新闻网站，由国务院新闻办领导、中国外文出版发行事业局（中国国际出版集团）管理的国家重点新闻网站，主要包括：东海资讯网,东海财经资讯,法制新闻, 东海健康饮食文化资讯,教育,东海旅游资讯,娱体新闻,房产信息,科技新闻，为一体的中国网东海资讯。">
+<style type="text/css">
+body {
+	background: url(http://jiangsu.china.com.cn/statics/images/404_bj.jpg) center center no-repeat;
+	margin:0;
+	padding:0;
+}
+.index {width:964px;height:400px; background:url(http://jiangsu.china.com.cn/statics/images/sj_bj.jpg) left top no-repeat; margin:0 auto;margin:100px auto;}
+html{ margin:0; padding:0;}
+ul{ list-style:none; padding:0; margin:0;}
+li{ list-style:none; padding:0; margin:0;}
+.left{width:400px;height:400px;float:left;}
+.left .info{width:370px;height:100px;float:left;padding: 300px 0 0 25px;text-align: center;line-height: 60px;}
+.right{width:535px;height:400px;float:right;}
+.top{ font-family:Arial, Helvetica, sans-serif; font-size:12px;line-height:24px;width:88%;margin:0 auto;padding-top:20px;}.top span{ color:#2a5580; font-size:22px;}
+.st_ping{width:88%; margin:0 auto;padding-top:20px;}
+.st_ping li{width:40%;float:left; line-height:30px; font-size:12px; background:url(/statics/images/404-error1.jpg) left center no-repeat;padding-left:30px; border-bottom:solid 1px #CCC;margin-left:10px;}
+.st_ping li a{ text-decoration:none;color:#666;}
+.st_ping li a:hover{ text-decoration:none;color:#666;}
+</style>
+
+</head>
+<body>
+<div class="index">
+<div class="left">
+	<div class="info">
+		<span id="totalSecond">3</span>秒后自动返回首页
+	</div>
+</div>
+<div class="right">
+<div class="top">
+<span>中国网•东海资讯</span><br />
+    中国网•东海资讯是国家重点新闻网站，由国务院新闻办领导、中国外文出版发行事业局（中国国际出版集团）管理的国家重点新闻网站，主要包括：东海资讯网,东海财经资讯,法制新闻, 东海健康饮食文化资讯,教育,东海旅游资讯,娱体新闻,房产信息,科技新闻，为一体的中国网东海资讯。</div>
+<div class="top_st"><img src="http://jiangsu.china.com.cn/statics/images/404-error.jpg" width="251" height="36" /></div>
+<ul class="st_ping">
+<li><a href="/">首页</a></li>
+<li><a href="/html/jsnews/">新闻</a></li>
+<li><a href="/html/finance/">财经</a></li>
+<li><a href="/html/house/">房产</a></li>
+<li><a href="/html/edu/">教育</a></li>
+<li><a href="/html/legal/">法治</a></li>
+<li><a href="/html/tech/">科技</a></li>
+<li><a href="/html/Culture/">文化</a></li>
+<li><a href="/html/Travel/">旅游</a></li>
+<li><a href="/html/ent/">娱乐</a></li>
+</ul>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+<!--
+    var second = document.getElementById('totalSecond').textContent;
+    if (navigator.appName.indexOf("Explorer") > -1)  // 判断是IE浏览器还是Firefox浏览器，采用相应措施取得秒数
+    {
+        second = document.getElementById('totalSecond').innerText;
+    } else
+    {
+        second = document.getElementById('totalSecond').textContent;
+    }
+    setInterval("redirect()", 1000);  //每1秒钟调用redirect()方法一次
+    function redirect()
+    {
+        if (second < 0)
+        {
+            location.href = 'http://jiangsu.china.com.cn';
+        } else
+        {
+            if (navigator.appName.indexOf("Explorer") > -1)
+            {
+                document.getElementById('totalSecond').innerText = second--;
+            } else
+            {
+                document.getElementById('totalSecond').textContent = second--;
+            }
+        }
+    }
+-->
+</script>
+</body>
+</html>
